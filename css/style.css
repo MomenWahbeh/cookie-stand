@@ -1,9 +1,78 @@
 table tr th{
-    border: solid black 1px;
+    border: solid rgb(134, 3, 3) 1px;
 } 
 td {
-    border: solid black 1px;
+    border: solid  rgb(134, 3, 3) 1px;
 } 
 table {
-    border: solid black 1px;
+    border: solid rgb(134, 3, 3) 1px;
 } 
+
+
+a {
+    text-decoration: none;
+    color: rgb(134, 3, 3);
+    width:50%;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+a:hover {
+    font-size: 20px ;
+    color:cadetblue;
+}
+
+header{
+    background-color:rgb(134, 3, 3);
+    margin-bottom: 30px;
+}
+ul {
+list-style-type: none ;
+background-color: rgba(248, 248, 255, 0.808);
+padding: 20px;
+}
+
+body{
+margin: 30 auto;
+color:rgba(61, 3, 3, 0.904);
+}
+
+main {
+    background-color: rgb(116, 47, 47);
+    text-align: center;
+    font-family: Arial;
+}
+
+.Contacts {
+    padding-bottom:50px;
+}
+.products {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 300px;
+    flex: 1 1 50px;
+}
+
+h3 {
+    font-size: 1.5em;
+
+}
+
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size:2em;
+}
+
+.about {
+    padding:50px;
+    width:800px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
