@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1> Salmon Cookies-Stand</h1>
-    <head>
+    <header>
         
         <nav>
             <ul>
@@ -19,8 +19,37 @@
         </nav>
         
         
-    </head>
-    <div id="parent"></div>
+    </header>
+    <main>
+        <form action="" id="ShopsForm">
+            <div class="textfield">
+                Please Fill the form in order to add your Shop to the sales list
+            </div>
+            <fieldset>
+                <label for="locName">New Shop Name</label>
+                <input type="text" id="locName" name="locName">
+                <br>
+                <label for="minCustomers">Minimun Customers</label>
+                <input type="text" id="minCustomers" name="minCustomers">
+                <br>
+                <label for="maxCustomersomers"> Max Customers</label>
+                <input type="text" id="maxCustomers" name="maxCustomers">
+                <br>
+                <label for="avgCookiesCus">Avg Cookies per customer</label>
+                <input type="text" id="avgCookiesCus" name="avgCookiesCus">
+                <br>
+                <input type="submit" value="Add Shop">
+
+            </fieldset>
+
+
+        </form>
+
+        <div id="shops">
+
+        </div>
+    </main>
+    
     
    
     
